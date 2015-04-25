@@ -27,4 +27,10 @@ ssh localhost "cat .ssh/authorized_keys"
 ```
 ssh -T git@github.com
 ```
+随后就可以使用ssh 访问github 上的repository, 例如:
+```
+git clone git@github.com:liangguo/mydebenv.git
+```
+每个git repository的地址可以在repository的右下方找到, 默认是https, 点ssh后出现可
+以使用ssh访问的地址.
 
