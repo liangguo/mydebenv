@@ -36,3 +36,7 @@ Most part are written in Chinese, but beauty code speaks English.
 [1] https://qa.debian.org/developer.php?login=guoliang@debian.org&comaint=yes
 
 [2] http://pgp.mit.edu/pks/lookup?search=guoliang%40debian.org&op=index
+
+#我的工具集
+
+* [ssh](ssh.md)
