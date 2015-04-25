@@ -7,8 +7,6 @@ maintained by me can be found at my QA page[1]. My mail address are:
 
 My GPG key is 0x68C097BC, which can be found at public key server[2]. 
 
-[1] https://qa.debian.org/developer.php?login=guoliang@debian.org&comaint=yes
-[2] http://pgp.mit.edu/pks/lookup?search=guoliang%40debian.org&op=index
 
 #About this git repository
 After a long time not working on Debian, it looks hard to resume, something are 
@@ -34,3 +32,7 @@ Most part are written in Chinese, but beauty code speaks English.
 些东西对您有用,我会非常高兴.
 
 这里的大部分东西会使用中文写, 但话说回来, 漂亮代码可是说英文的哦. 
+
+[1] https://qa.debian.org/developer.php?login=guoliang@debian.org&comaint=yes
+
+[2] http://pgp.mit.edu/pks/lookup?search=guoliang%40debian.org&op=index
