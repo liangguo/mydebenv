@@ -41,3 +41,8 @@ Most part are written in Chinese, but beauty code speaks English.
 
 * [ssh](ssh.md)
 * [git](git.md)
+
+
+#需要全部或部分复制的文件
+
+* [file-to-copy](file-to-copy.md)
