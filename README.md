@@ -41,6 +41,7 @@ Most part are written in Chinese, but beauty code speaks English.
 
 * [ssh](ssh.md)
 * [git](git.md)
+* [pristine-tar](pristine-tar.md)
 
 #我安装的软件包, 不完全列表
 * [installedpackage](installedpackage.md)
