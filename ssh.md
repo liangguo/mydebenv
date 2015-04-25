@@ -61,3 +61,19 @@ ssh alioth.debian.org "cat sshkey|mail changes@db.debian.org"
 
 登陆alioth.d.o的ssh key可以在[这个页面](https://alioth.debian.org/account/editsshkeys.php)
 进行编辑, 更多信息请参考[alioth.d.o的Wiki](https://wiki.debian.org/Alioth/SSH)
+
+#debian.org ssh的其他问题
+d.o的所有机器的host key 可以在任何debian机器上找到, 可以用如下命令复制到本机:
+```
+scp guoliang@alioth.debian.org:/var/lib/misc/ssh_known_hosts  ~/.ssh/debian_hostkeys
+```
+并修改~/.ssh/config来使用debian_hostkeys
+```
+Host *.debian.org *.debian.net
+    User guoliang
+    ForwardX11 no
+    ForwardAgent  no
+    VerifyHostKeyDNS yes
+    UserKnownHostsFile ~/.ssh/debian_hostkeys
+```
+这样做可以防止潜在的中间人攻击. 
