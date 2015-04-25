@@ -42,6 +42,8 @@ Most part are written in Chinese, but beauty code speaks English.
 * [ssh](ssh.md)
 * [git](git.md)
 
+#我安装的软件包, 不完全列表
+* [installedpackage](installedpackage.md)
 
 #需要全部或部分复制的文件
 
